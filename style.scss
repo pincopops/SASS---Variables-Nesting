@@ -1,0 +1,39 @@
+// variabili
+$color-red: red;
+$color-blue: blue;
+$color-green: green;
+
+// nesting
+div.container{
+    border: 1px solid $color-red;
+    h1.container-header{
+        text-align: center;
+        text-decoration: underline;
+        text-decoration-color: $color-blue;
+        color: $color-green;
+    }
+}
+
+section.first-section{
+    display: flex;
+    border: 1px solid $color-green;
+    margin: 10px;
+    .first-section-article{
+        padding: 20px 10px 20px 10px;
+        text-align: center;
+        border: 1px solid $color-green;
+        p.var1{
+            color: $color-blue;
+        }
+    }
+}
+
+article{
+    p.var2{
+        color: $color-red;
+        
+    }
+}
+            
+    
+    

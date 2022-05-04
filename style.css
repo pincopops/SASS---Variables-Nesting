@@ -1,0 +1,29 @@
+div.container {
+  border: 1px solid red;
+}
+div.container h1.container-header {
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: blue;
+  color: green;
+}
+
+section.first-section {
+  display: flex;
+  border: 1px solid green;
+  margin: 10px;
+}
+section.first-section .first-section-article {
+  padding: 20px 10px 20px 10px;
+  text-align: center;
+  border: 1px solid green;
+}
+section.first-section .first-section-article p.var1 {
+  color: blue;
+}
+
+article p.var2 {
+  color: red;
+}
+
+/*# sourceMappingURL=style.css.map */
